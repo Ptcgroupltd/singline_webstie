@@ -16,5 +16,8 @@
     "bugs": {
         "url": "https://github.com/Ptcgroupltd/singline_webstie/issues"
     },
-    "homepage": "https://github.com/Ptcgroupltd/singline_webstie#readme"
+    "homepage": "https://github.com/Ptcgroupltd/singline_webstie#readme",
+    "dependencies": {
+        "tw-elements": "^1.0.0-beta1"
+    }
 }
