@@ -12,7 +12,7 @@
 
 <body>
     <div class="conatiner mx-auto">
-        <div class="p-0" id="header"></div>
+        <!-- <div class="p-0" id="header"></div> -->
         <div class="p-0" id="nav"></div>
         <div class="p-0" id="main"></div>
         <div class="p-0" id="footer"></div>
@@ -21,12 +21,12 @@
 <script>
     // Load the header and navigation components using AJAX
     function loadComponents() {
-        const headerRequest = new XMLHttpRequest();
-        headerRequest.open('GET', '../component/header.html');
-        headerRequest.onload = function() {
-            document.getElementById('header').innerHTML = headerRequest.responseText;
-        };
-        headerRequest.send();
+        // const headerRequest = new XMLHttpRequest();
+        // headerRequest.open('GET', '../component/header.html');
+        // headerRequest.onload = function() {
+        //     document.getElementById('header').innerHTML = headerRequest.responseText;
+        // };
+        // headerRequest.send();
 
         const navRequest = new XMLHttpRequest();
         navRequest.open('GET', '../component/navigation.html');
